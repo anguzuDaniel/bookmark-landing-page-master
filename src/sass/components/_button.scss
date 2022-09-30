@@ -1,0 +1,43 @@
+.btn {
+	cursor: pointer;
+	border: none;
+	padding: 0.8em 2em;
+	// padding: 1em 1.5em !important;
+	border-radius: 5px;
+	color: var(--fc-white);
+	box-shadow: var(--shadow-btn);
+	font-weight: bold;
+    transition: all .2s ease-in-out;
+
+	&--red {
+		background-color: var(--clr-primary-2);
+		text-transform: uppercase;
+		border: 2px solid var(--clr-primary-2);
+		letter-spacing: 1px;
+
+		&:hover {
+			background-color: var(--fc-white);
+			color: var(--clr-primary-2);
+		}
+	}
+
+	&--blue {
+		background-color: var(--clr-primary-1);
+		padding: 0.8em 2em;
+		border: 2px solid var(--clr-primary-1);
+
+		&:hover {
+			background-color: transparent;
+			color: var(--clr-primary-1);
+		}
+	}
+
+	&--transparent {
+		color: var(--clr-netural-2);
+		border: 2px solid transparent;
+
+		&:hover {
+			border: 2px solid var(--clr-netural-2);
+		}
+	}
+}
