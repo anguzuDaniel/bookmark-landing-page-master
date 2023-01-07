@@ -1,0 +1,46 @@
+.hero {
+	display: flex;
+	gap: 10rem;
+	padding: 4rem 0 2rem 8rem;
+	padding-left: var(--padding-1);
+	align-items: center;
+	box-sizing: content-box;
+	// height: 100vh;
+
+	&__img {
+		width: 100%;
+	}
+
+	&--left {
+		width: 50%;
+	}
+
+	&--right {
+		width: 50%;
+	}
+
+	&__btn {
+		&--chrome {
+			margin-right: 1.25rem;
+		}
+	}
+
+	@media (max-width: 51.18em) {
+		flex-direction: column;
+		padding: 0;
+
+		&--left {
+			width: 80%;
+			text-align: center;
+			// padding-inline: 4rem;
+
+			h1 {
+				font-size: 2em;
+			}
+		}
+
+		&--right {
+			width: 100%;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+.heading {
+    font-weight: var(--fw-600);
+    margin-bottom: 1.8rem;
+    font-size: 3rem;
+    font-weight: bold;
+
+    &--main {
+        font-size: 5rem;
+    }
+}
+
+.paragraph {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    opacity: .6;
+    line-height: 1.5;
+    // letter-spacing: .5px;
+}

@@ -1,0 +1,34 @@
+:root {
+    // PRIMARY COLORS
+    --clr-primary-1: hsl(231, 69%, 60%); // Soft Blue
+    --clr-primary-2: hsl(0, 94%, 66%);  // Soft Red
+
+    // NEUTRAL COLORS
+    --clr-neutral-1: hsl(229, 8%, 60%); // Grayish Blue
+    --clr-netural-2: hsl(229, 31%, 21%); // Very Dark Blue
+
+    // BTN FONT COLOR
+    --fc-white: white;
+
+    // BTN SHADOW COLOR
+    --shadow-btn: 0 1px 10px rgba(0, 0, 0, 0.297);
+    --shadow-1: 0 10px 10px 1px rgba(0, 0, 0, 0.078);
+
+    // QUESTION BORDER
+    --qn-border: hsla(229, 8%, 60%, 0.283);
+
+    // TYPOGRAPHY
+    // FONT SIZE
+    --fs: 112%;
+
+    // FONT FAMILY
+    --ff: Rubik;
+
+    // FONT WEIGHTS
+    --fw-400: 400;
+    --fw-500: 500;
+
+    --padding-1: 10rem;
+    --padding-2: 4rem;
+
+}
